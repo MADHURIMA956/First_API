@@ -10,8 +10,7 @@ app.use(express.json());
 //get
 
 app.get('/',(req,res) => {
-   
-  return res.send("Welcome to Home page")
+  
   res.send({users})
 });
 
